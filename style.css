@@ -5,6 +5,18 @@
 .canvas {
   width: 500px;
   height: 500px;
-  background-color: red;
+  background-color: white;
   display: grid;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#sizeInputBox {
+  margin-top: 1rem;
 }

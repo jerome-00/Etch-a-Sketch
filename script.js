@@ -8,8 +8,8 @@ function populateCanvas(size) {
 
   for (let i = 0; i < gridSize; i++) {
     let square = document.createElement("div");
-    let color = "green";
-    square.style.backgroundColor = "blue";
+    let color = "black";
+    square.style.backgroundColor = "white";
     square.addEventListener("mouseover", function () {
       square.setAttribute("style", `background-color:${color}`);
     });
